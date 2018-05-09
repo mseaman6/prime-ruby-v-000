@@ -3,9 +3,9 @@ def prime?(integer)
   divisors = (1..500).to_a
   divisors.each do |divisor|
     if integer % divisor != 0
-      return true
+      true
     else
-      return true
+      false
     end
   end
 end
