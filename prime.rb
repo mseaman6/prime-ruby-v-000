@@ -8,7 +8,7 @@ def prime?(integer)
   else
     divisors = (2..500).to_a
     divisors.each do |divisor|
-
+    binding.pry
       if integer % divisor == 0
         return false
         break
