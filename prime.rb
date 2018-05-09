@@ -14,7 +14,6 @@ def prime?(integer)
       else
         true
       end
-    binding.pry
     end
   end
 end
